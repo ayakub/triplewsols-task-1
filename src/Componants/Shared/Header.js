@@ -8,7 +8,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 const Header = () => {
     return (
         <Navbar bg="light" expand="lg" className='mx-5'>
-            <Navbar.Brand href="#home">Faucets</Navbar.Brand>
+            <Navbar.Brand href="#home"><h3 style={{ color: 'blue' }}>Faucets</h3></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" >
                 <Nav className="ms-auto ">
